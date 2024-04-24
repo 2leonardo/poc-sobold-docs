@@ -4,7 +4,7 @@ const withNextra = require('nextra')({
 });
 
 const isProduction = process.env.NODE_ENV === 'production';
-const prefix = isProduction ? '/sobold-docs' : '';
+const prefix = isProduction ? '/poc-sobold-docs' : '';
 
 const nextConfig = {
     images: {
