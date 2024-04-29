@@ -14,9 +14,10 @@ This page will hold any future addition to the repo, and it will follow a priori
 The project is currently in pre release state, so any todo item is to be prioritised following the `pre release` priority values.
 
 ## ToDo
-|Item|Priority|
-|---|---|
-|Add husky|alpha|
+|Item|Priority|Completion
+|---|---|---|
+|Add husky|alpha|Completed|
 |Finalise structure|alpha|
 |Add contribution guidelines|beta|
+|Add styles|alpha|
 
