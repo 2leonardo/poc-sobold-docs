@@ -38,6 +38,6 @@ config.codekit
 # Custom Ignored #
 node_modules/
 vendor/
+.gitmodules
 .next/
 out/
-.gitmodules
