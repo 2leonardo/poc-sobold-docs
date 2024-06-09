@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repo holds all the information pertaining to code standards, best practices, processes and how tos for SoBold
+This repo holds all the information pertaining to code standards, best practices, processes and how-tos for SoBold
 
 ## Contribute
 

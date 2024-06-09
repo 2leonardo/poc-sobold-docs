@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { DocsThemeConfig } from 'nextra-theme-docs';
 import Logo from './components/Logo/Logo';
 
-const config: DocsThemeConfig = {
+export default {
     useNextSeoProps() {
         const { asPath } = useRouter();
         if (asPath !== '/') {
@@ -18,8 +18,6 @@ const config: DocsThemeConfig = {
     },
     docsRepositoryBase: 'https://github.com/SoBold/sobold-docs',
     footer: {
-        text: 'SoBold Docs',
+        text: Logo,
     },
-};
-
-export default config;
+} satisfies DocsThemeConfig;
